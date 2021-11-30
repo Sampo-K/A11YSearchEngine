@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: scroll;
+}
+
+.header {
+  padding: 1em 1em;
+  border-bottom: 0.3em dotted #759c9c;
+  background-color: #c5d5d5;
+}
+
+.footer {
+  padding: 1em 1em;
+  border-top: 0.3em dotted #759c9c;
+  background-color: #c5d5d5;
+}
+
+td,
+th {
+  text-align: left;
+  vertical-align: top;
+}
+
+th {
+  padding: 1em;
+}
+
+.dataRow {
+  cursor: pointer;
+}
+
+.dataRow:hover {
+  background-color: #e1f8ff;
+}
+
+.crit-col {
+  width: 25em;
+}
+
+.crit-col a {
+  display: block;
+  padding: 1em;
+}
+
+.lvl-col {
+  width: 7em;
+}
+
+.lvl-col span {
+  padding: 1em;
+}
+
+.desc-col {
+  width: 30em;
+}
+
+.desc-col p {
+  padding: 1em;
+  margin: 0;
+}
+
+table {
+  margin-top: 3em;
+}
+
+.comfLevel {
+  display: block;
+  font-weight: 600;
+}
+
+label {
+  padding-right: 2em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  font-weight: 700;
+}
+
+label input,
+label select {
+  margin-left: 0.5em;
+}
+
+input[type="text"] {
+  width: 20em;
+  font-size: 1.2rem;
+}
+
+select {
+  font-size: 1.2em;
+}
+
+.result-amount {
+  font-size: 1.1em;
+  font-weight: 600;
+  margin-top: 1em;
+  margin-bottom: 0;
+}
